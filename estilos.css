@@ -41,11 +41,6 @@
     box-sizing: border-box;
 }
 
-
-nav div{
-    display: flex;
-}
-
 nav ul li{
     display: flex;
     align-items: center;
@@ -60,7 +55,7 @@ nav ul{
     height: 70px;
     display: flex;
     justify-content: space-around;
-    gap: 30px;
+    gap: 20px;
 }
 
 nav{
@@ -106,7 +101,14 @@ nav ul li a {
     margin-left: auto;
     font-family: 'Miniatura';
     font-size: 12px;
+    list-style: none;
 }
+
+
+.miCuenta:hover{
+    color: #FFFF00;
+}
+
 /*******************************************************************************/
 
 .reserva{
@@ -122,7 +124,7 @@ nav ul li a {
 
 .reserva input {
     border-radius: 20px;
-    padding: 15px 30px;
+    padding: 20px 30px;
     margin-left: 25px;
     border: none;
     font-family: 'Placeholder';
@@ -145,7 +147,7 @@ nav ul li a {
 .txtMain {
     position: absolute;
     left: 200px;
-    top: 200px;
+    top: 150px;
 }
 
 .servicios {
@@ -179,13 +181,14 @@ nav ul li a {
     text-align: left;
     font-family: 'Normal';
     font-size: 16px;
+    margin: 10px 0;
 }
 
 .pieCard{
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    padding: 0px;
+    padding-left: 10px;
     font-family: 'Titulo2';
     font-size: 32px;
 }
@@ -229,10 +232,10 @@ nav ul li a {
     background-color: #A3A656;
     color: #F2F6F6;
     border-radius: 35px;
-    height: 40px;
-    width: 250px;
+    height: 60px;
+    width: 300px;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     margin: 20px;
     font-size: 16px;
     font-family: 'Titulo2';
@@ -321,5 +324,4 @@ nav ul li a {
     align-items: center;
     gap: 30px;
     margin-left: auto;
-    font-size: 14px;
 }

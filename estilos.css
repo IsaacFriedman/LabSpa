@@ -1,0 +1,325 @@
+@font-face {
+    font-family: 'Titulo1';
+    src: url('./fuentes/Inter/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Titulo2';
+    src: url('./fuentes/Inter/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Miniatura';
+    src: url('./fuentes/Inter/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Menu';
+    src: url('./fuentes/Inter/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Normal';
+    src: url('./fuentes/Inter/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Placeholder';
+    src: url('./fuentes/Inter/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Romanesco';
+    src: url('./fuentes/Romanesco/Romanesco-Regular.ttf');
+}
+
+/********************************************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav div{
+    display: flex;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    padding-left: 0;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+nav{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    background-color: #A3A656;
+    height: 70px;
+}
+
+nav ul li a:hover {
+    color: #FFFF00;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.txtMain p{
+    font-family: 'Romanesco';
+    font-size: 96px;
+}
+
+.txtMain h5{
+    font-family: 'Titulo2';
+    font-size: 32px;
+}
+
+.headerIzq{
+    display: flex;
+    margin: 0px;
+    padding-left: 70px;
+    font-family: 'Menu';
+    flex-grow: 1;  /* Permite que la caja crezca para ocupar el espacio disponible */
+    font-size: 16px;
+}
+
+.headerDer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    font-family: 'Miniatura';
+    font-size: 12px;
+}
+/*******************************************************************************/
+
+.reserva{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F6F6;
+    gap: 30px;
+    height: 100px;
+    font-family: 'Menu';
+    font-size: 16px;
+}
+
+.reserva input {
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin-left: 25px;
+    border: none;
+    font-family: 'Placeholder';
+    font-size: 16px;
+    Color: #9E9A9A
+}
+
+
+
+.fotoMain{
+    height: 667px;
+    text-align: left;
+    background-image: url(./images/main.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.txtMain {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    padding: 100px;
+    text-align: center;
+    gap: 134px;
+}
+
+.card{
+    align-items: center;
+    border-radius:  15px 15px 0 0;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.headCard{
+    background-color: #A3A656;
+    color: #F2F6F6;
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    font-family: 'Titulo2';
+    font-size: 32px;
+}
+
+.descripcionCard{
+    text-align: left;
+    font-family: 'Normal';
+    font-size: 16px;
+}
+
+.pieCard{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Titulo2';
+    font-size: 32px;
+}
+
+.reservar{
+    background-color: #A3A656;
+    color: #F2F6F6;
+    border-radius: 35px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Titulo2';
+}
+
+.reservar:hover{
+    background-color: #384001;
+}
+
+/*******************************************************************************/
+
+.beneficios{
+    text-align: center;
+    background-color: #F2F6F6;
+    padding: 30px;
+    text-align: center;
+    gap: 134px;
+    height: 770px;
+    font-family: 'Titulo2';
+    font-size: 32px;
+}
+
+.suscripciones{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+
+.condiciones{
+    background-color: #A3A656;
+    color: #F2F6F6;
+    border-radius: 35px;
+    height: 40px;
+    width: 250px;
+    border: none;
+    font-size: 14px;
+    margin: 20px;
+    font-size: 16px;
+    font-family: 'Titulo2';
+}
+
+.condiciones:hover{
+    background-color: #384001;
+}
+
+.suscripciones ul li{
+    text-align: left;
+    font-family: 'Normal';
+    font-size: 16px;
+}
+
+.subsCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+}
+
+.subsLogo{
+    background-color: #FFFFFF;
+    width: 233px;
+    height: 233px; 
+    border: 11px solid #384001; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subsInfo{
+    padding: 10px ;
+    padding-bottom: 20px;
+}
+
+/*******************************************************************************/
+
+
+
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #384001;
+    color: #A3A656;
+    height: 97px;
+    padding: 0 70px;
+    font-family: 'Menu';
+    font-size: 16px;
+}
+
+.pie ul {
+    display: flex;
+    align-items: center;
+    gap: 105px;
+    padding: 0px;
+}
+
+.pieIzq {
+    display: flex;
+    flex-grow: 1;  /* Permite que la caja crezca para ocupar el espacio disponible */
+}
+
+.pie li{
+    display: flex;
+    list-style: none;
+}
+
+.pie a {
+    display: flex;
+    text-decoration: none;
+    color: #A3A656;
+}
+
+.pie a:hover {
+    color: #FFFF00;
+}
+
+.pieDer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    font-size: 14px;
+}
